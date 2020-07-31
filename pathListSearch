@@ -1,0 +1,146 @@
+/mnt/c/Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~18362.418.1.9/wow64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_09f5f43620881f94/f/fontdrvhost.exe
+/mnt/c/Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~18362.418.1.9/wow64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_09f5f43620881f94/r/fontdrvhost.exe
+/mnt/c/Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~18362.418.1.9/amd64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_ffa149e3ec275d99/f/fontdrvhost.exe
+/mnt/c/Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~18362.418.1.9/amd64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_ffa149e3ec275d99/r/fontdrvhost.exe
+/mnt/c/Windows/System32/fontdrvhost.exe
+/mnt/c/Windows/SysWOW64/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_09f5f43620881f94/f/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_09f5f43620881f94/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_09f5f43620881f94/r/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.476_none_ff8babf1ec3792a2/f/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.476_none_ff8babf1ec3792a2/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.476_none_ff8babf1ec3792a2/r/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.476_none_09e056442098549d/f/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.476_none_09e056442098549d/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.476_none_09e056442098549d/r/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_ffa149e3ec275d99/f/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_ffa149e3ec275d99/fontdrvhost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-gdi_31bf3856ad364e35_10.0.18362.356_none_ffa149e3ec275d99/r/fontdrvhost.exe
+
+/mnt/c/Program Files/Realtek/Audio/HDA/RAVBg64.exe
+/mnt/c/Windows/System32/DriverStore/FileRepository/hdxhpnb.inf_amd64_7ad5aa3ac16f12c7/RAVBg64.exe
+
+/mnt/c/Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~18362.418.1.9/amd64_microsoft-windows-printing-spooler-core_31bf3856ad364e35_10.0.18362.387_none_2bfa65135341328d/f/spoolsv.exe
+/mnt/c/Windows/servicing/LCU/Package_for_RollupFix~31bf3856ad364e35~amd64~~18362.418.1.9/amd64_microsoft-windows-printing-spooler-core_31bf3856ad364e35_10.0.18362.387_none_2bfa65135341328d/r/spoolsv.exe
+/mnt/c/Windows/System32/spoolsv.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-printing-spooler-core_31bf3856ad364e35_10.0.18362.387_none_2bfa65135341328d/f/spoolsv.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-printing-spooler-core_31bf3856ad364e35_10.0.18362.387_none_2bfa65135341328d/r/spoolsv.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-printing-spooler-core_31bf3856ad364e35_10.0.18362.387_none_2bfa65135341328d/spoolsv.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-printing-spooler-core_31bf3856ad364e35_10.0.18362.476_none_2c04369b5339fa6c/f/spoolsv.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-printing-spooler-core_31bf3856ad364e35_10.0.18362.476_none_2c04369b5339fa6c/r/spoolsv.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-printing-spooler-core_31bf3856ad364e35_10.0.18362.476_none_2c04369b5339fa6c/spoolsv.exe
+
+/mnt/c/Program Files/Apoint2K/HidMonitorSvc.exe
+/mnt/c/Windows/System32/DriverStore/FileRepository/apfiltr.inf_amd64_6e00126fbd5f80fc/HidMonitorSvc.exe
+
+/mnt/c/Program Files/Realtek/Audio/HDA/AERTSr64.exe
+/mnt/c/Windows/System32/DriverStore/FileRepository/hdxhpnb.inf_amd64_7ad5aa3ac16f12c7/AERTSr64.exe
+
+/mnt/c/Program Files (x86)/Symantec/Symantec Endpoint Protection/14.0.3752.1000.105/Bin/ccSvcHst.exe
+/mnt/c/ProgramData/Symantec/Symantec Endpoint Protection/14.0.3752.1000.105/Data/Cached Installs/Program Files/Symantec/Name/Version/Bin/ccSvcHst.exe
+
+/mnt/c/Windows/System32/wbem/unsecapp.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-wmi-core_31bf3856ad364e35_10.0.18362.1_none_8bb173109cd10ed3/unsecapp.exe
+
+/mnt/c/Windows/System32/SearchIndexer.exe
+/mnt/c/Windows/SysWOW64/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/wow64_windowssearchengine_31bf3856ad364e35_7.0.18362.329_none_8237529d8d36c9b0/f/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/wow64_windowssearchengine_31bf3856ad364e35_7.0.18362.329_none_8237529d8d36c9b0/r/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/wow64_windowssearchengine_31bf3856ad364e35_7.0.18362.329_none_8237529d8d36c9b0/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/wow64_windowssearchengine_31bf3856ad364e35_7.0.18362.449_none_82373fa18d36dd9f/f/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/wow64_windowssearchengine_31bf3856ad364e35_7.0.18362.449_none_82373fa18d36dd9f/r/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/wow64_windowssearchengine_31bf3856ad364e35_7.0.18362.449_none_82373fa18d36dd9f/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/amd64_windowssearchengine_31bf3856ad364e35_7.0.18362.329_none_77e2a84b58d607b5/f/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/amd64_windowssearchengine_31bf3856ad364e35_7.0.18362.329_none_77e2a84b58d607b5/r/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/amd64_windowssearchengine_31bf3856ad364e35_7.0.18362.329_none_77e2a84b58d607b5/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/amd64_windowssearchengine_31bf3856ad364e35_7.0.18362.449_none_77e2954f58d61ba4/f/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/amd64_windowssearchengine_31bf3856ad364e35_7.0.18362.449_none_77e2954f58d61ba4/r/SearchIndexer.exe
+/mnt/c/Windows/WinSxS/amd64_windowssearchengine_31bf3856ad364e35_7.0.18362.449_none_77e2954f58d61ba4/SearchIndexer.exe
+
+/mnt/c/Program Files (x86)/Symantec/Symantec Endpoint Protection/14.0.3752.1000.105/Bin/ccSvcHst.exe
+/mnt/c/ProgramData/Symantec/Symantec Endpoint Protection/14.0.3752.1000.105/Data/Cached Installs/Program Files/Symantec/Name/Version/Bin/ccSvcHst.exe
+
+/mnt/c/Windows/System32/ctfmon.exe
+/mnt/c/Windows/SysWOW64/ctfmon.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-t..cesframework-ctfmon_31bf3856ad364e35_10.0.18362.1_none_6f8dfccf0dc9f907/ctfmon.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-t..cesframework-ctfmon_31bf3856ad364e35_10.0.18362.1_none_79e2a721422abb02/ctfmon.exe
+
+/mnt/c/Program Files/Apoint2K/ApMsgFwd.exe
+/mnt/c/Windows/System32/DriverStore/FileRepository/apfiltr.inf_amd64_6e00126fbd5f80fc/ApMsgFwd.exe
+
+/mnt/c/Program Files/Apoint2K/hidfind.exe
+/mnt/c/Windows/System32/DriverStore/FileRepository/apfiltr.inf_amd64_6e00126fbd5f80fc/hidfind.exe
+
+/mnt/c/Program Files/Apoint2K/ApntEx.exe
+/mnt/c/Windows/System32/DriverStore/FileRepository/apfiltr.inf_amd64_6e00126fbd5f80fc/ApntEx.exe
+
+/mnt/c/Windows/System32/DriverStore/FileRepository/igdlh64.inf_amd64_a89617337ce7436c/igfxEM.exe
+/mnt/c/Windows/System32/igfxEM.exe
+
+/mnt/c/Windows/System32/DriverStore/FileRepository/igdlh64.inf_amd64_a89617337ce7436c/igfxHK.exe
+/mnt/c/Windows/System32/igfxHK.exe
+
+/mnt/c/Windows/System32/DriverStore/FileRepository/igdlh64.inf_amd64_a89617337ce7436c/igfxTray.exe
+/mnt/c/Windows/System32/igfxTray.exe
+
+
+/mnt/c/Program Files/Realtek/Audio/HDA/RtkNGUI64.exe
+/mnt/c/Windows/System32/DriverStore/FileRepository/hdxhpnb.inf_amd64_7ad5aa3ac16f12c7/RtkNGUI64.exe
+
+/mnt/c/Program Files/Realtek/Audio/HDA/RAVBg64.exe
+/mnt/c/Windows/System32/DriverStore/FileRepository/hdxhpnb.inf_amd64_7ad5aa3ac16f12c7/RAVBg64.exe
+
+/mnt/c/Users/wagner/Documents/src/cmder/vendor/conemu-maximus5/ConEmu64.exe
+
+/mnt/c/Program Files (x86)/nerds.de/LoopBe1/loopBeMon.exe
+
+/mnt/c/Users/wagner/Documents/src/cmder/vendor/conemu-maximus5/ConEmu/ConEmuC64.exe
+
+/mnt/c/Windows/System32/wbem/WmiPrvSE.exe
+/mnt/c/Windows/SysWOW64/wbem/WmiPrvSE.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-wmi-core-providerhost_31bf3856ad364e35_10.0.18362.1_none_e2c02e87089d78a7/WmiPrvSE.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-wmi-core-providerhost_31bf3856ad364e35_10.0.18362.1_none_ed14d8d93cfe3aa2/WmiPrvSE.exe
+
+/mnt/c/Program Files/VcXsrv/vcxsrv.exe
+
+/mnt/c/Windows/System32/SgrmBroker.exe
+/mnt/c/Windows/WinSxS/amd64_security-octagon-broker_31bf3856ad364e35_10.0.18362.1_none_2c68aee90a13192d/SgrmBroker.exe
+
+/mnt/c/Windows/System32/CompPkgSrv.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-c..onentpackagesupport_31bf3856ad364e35_10.0.18362.1_none_3219db1d560e0902/CompPkgSrv.exe
+
+/mnt/c/Windows/System32/SecurityHealthService.exe
+/mnt/c/Windows/WinSxS/amd64_windows-shield-provider_31bf3856ad364e35_10.0.18362.329_none_fbe764db5ee0e197/f/SecurityHealthService.exe
+/mnt/c/Windows/WinSxS/amd64_windows-shield-provider_31bf3856ad364e35_10.0.18362.329_none_fbe764db5ee0e197/r/SecurityHealthService.exe
+/mnt/c/Windows/WinSxS/amd64_windows-shield-provider_31bf3856ad364e35_10.0.18362.329_none_fbe764db5ee0e197/SecurityHealthService.exe
+
+/mnt/c/Windows/System32/ApplicationFrameHost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-s..plicationframe-host_31bf3856ad364e35_10.0.18362.1_none_ac0aa30caa359e8b/ApplicationFrameHost.exe
+
+
+/mnt/c/Windows/System32/WUDFHost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-d..frameworks-usermode_31bf3856ad364e35_10.0.18362.1_none_6f6f0087727c04d2/WUDFHost.exe
+
+/mnt/c/Windows/System32/wbem/WmiPrvSE.exe
+/mnt/c/Windows/SysWOW64/wbem/WmiPrvSE.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-wmi-core-providerhost_31bf3856ad364e35_10.0.18362.1_none_e2c02e87089d78a7/WmiPrvSE.exe
+/mnt/c/Windows/WinSxS/wow64_microsoft-windows-wmi-core-providerhost_31bf3856ad364e35_10.0.18362.1_none_ed14d8d93cfe3aa2/WmiPrvSE.exe
+
+/mnt/c/Windows/System32/sihost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-shellhost_31bf3856ad364e35_10.0.18362.1_none_e8d5ad27a034d998/sihost.exe
+
+/mnt/c/Windows/SystemApps/Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy/StartMenuExperienceHost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-s..riencehost.appxmain_31bf3856ad364e35_10.0.18362.329_none_512d8b6343e81fc6/f/StartMenuExperienceHost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-s..riencehost.appxmain_31bf3856ad364e35_10.0.18362.329_none_512d8b6343e81fc6/r/StartMenuExperienceHost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-s..riencehost.appxmain_31bf3856ad364e35_10.0.18362.329_none_512d8b6343e81fc6/StartMenuExperienceHost.exe
+
+/mnt/c/Windows/SystemApps/Microsoft.Windows.Cortana_cw5n1h2txyewy/SearchUI.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-c..sktop.appxmain.root_31bf3856ad364e35_10.0.18362.418_none_310c7efd3ffd8de0/f/SearchUI.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-c..sktop.appxmain.root_31bf3856ad364e35_10.0.18362.418_none_310c7efd3ffd8de0/r/SearchUI.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-c..sktop.appxmain.root_31bf3856ad364e35_10.0.18362.418_none_310c7efd3ffd8de0/SearchUI.exe
+
+/mnt/c/Windows/SystemApps/ShellExperienceHost_cw5n1h2txyewy/ShellExperienceHost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-s..riencehost.appxmain_31bf3856ad364e35_10.0.18362.387_none_52892cbd90a6f15b/f/ShellExperienceHost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-s..riencehost.appxmain_31bf3856ad364e35_10.0.18362.387_none_52892cbd90a6f15b/r/ShellExperienceHost.exe
+/mnt/c/Windows/WinSxS/amd64_microsoft-windows-s..riencehost.appxmain_31bf3856ad364e35_10.0.18362.387_none_52892cbd90a6f15b/ShellExperienceHost.exe
+
