@@ -19,7 +19,7 @@ int main(int argc, char ** argv){
 }"""
 
 file = ''
-if len(sys.argv) < 1:
+if len(sys.argv) < 2:
 	file = input("source file name: ")
 else:
 	file = sys.argv[1]

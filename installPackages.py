@@ -8,7 +8,7 @@ f = open("pkglst","r")
 t = f.read()
 f.close()
 
-cmd = "apt install "
+cmd = "apt -y install "
 
 log = ""
 
