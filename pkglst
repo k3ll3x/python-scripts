@@ -16,4 +16,15 @@ tree
 openssh-server
 x11vnc
 vsftpd
-
+mplayer
+oggenc
+ffmpeg
+python3
+python3-pip
+clojure
+lynx
+blender
+codeblocks
+libgl-dev
+redshift
+simple-scan
