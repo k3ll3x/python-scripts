@@ -28,3 +28,6 @@ codeblocks
 libgl-dev
 redshift
 simple-scan
+qjackctl
+net-tools
+clamav
