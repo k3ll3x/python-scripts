@@ -21,8 +21,11 @@ for i in range(len(t)):
 		print(str(i+1) + ": " + tmp)
 		nt.append(tmp)
 
-ch = input("Select a package name (separated by space): ")
+ch = input("Select a package name (separated by space) 0 to cancel: ")
 ch = ch.split(' ')
+
+if ch[0] == '0':
+	exit()
 
 cmd = "adb shell pm uninstall -k --user 0 "
 
