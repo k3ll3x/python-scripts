@@ -29,6 +29,8 @@ libgl-dev
 redshift
 simple-scan
 qjackctl
+pulseaudio-module-jack
+jackd2
 net-tools
 clamav
 abd
