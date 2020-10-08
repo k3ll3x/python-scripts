@@ -3,3 +3,4 @@ jupyter
 numpy
 pandas
 cv2
+httplib2
