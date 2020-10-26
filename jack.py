@@ -11,6 +11,8 @@ cmd = []
 
 if ch == "start":
 	cmd.append("pulseaudio --kill")
+	cmd.append("systemctl --user stop pulseaudio.socket")
+	cmd.append("systemctl --user stop pulseaudio.service")
 	cmd.append("jack_control  start")
 elif ch == "stop":
 	cmd.append("jack_control exit")
@@ -25,7 +27,8 @@ for i in cmd:
 
 print(out)
 
-if (input("start qjackctl? (y/N)") or 'n') == 'y':
-	out = os.popen("qjackctl &")
-	print(out)
+if ch == "start":
+	if (input("start qjackctl? (y/N)") or 'n') == 'y':
+		out = os.popen("qjackctl &")
+		print(out)
 

@@ -2,7 +2,8 @@
 
 import sys, datetime
 
-tmplt = """/* Author: Siegfried Keller
+tmplt = """/*
+ * Author: Siegfried Keller
  * Date: $date
  *
  * Title: $title
