@@ -1,4 +1,4 @@
 #!/bin/bash
-../kill_process_grep.py habits.py
+python3 /home/nuvhandra/Documents/dev/python/scripts/kill_process_grep.py habits.py
 nohup ./habits.py &
 
