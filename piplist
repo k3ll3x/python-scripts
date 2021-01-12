@@ -2,5 +2,5 @@ matplotlib
 jupyter
 numpy
 pandas
-cv2
+opencv-python
 httplib2

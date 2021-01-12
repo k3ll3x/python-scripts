@@ -1,0 +1,438 @@
+Process x11vnc still running...
+Process x11vnc still running...
+2
+Process x11vnc still running...
+2
+Process x11vnc still running...
+['nuvhand+ 32258  0.0  0.0   2388   764 ?        Ss   23:51   0:00 /bin/sh -c ifOffRevive x11vnc >> /home/nuvhandra/Documents/dev/python/scripts/ifOffRevive.log 2>&1', 'nuvhand+ 32259  0.0  0.1  18500 10168 ?        S    23:51   0:00 /usr/bin/python3 /usr/bin/ifOffRevive x11vnc', 'nuvhand+ 32260  0.0  0.0   2388   700 ?        S    23:51   0:00 /bin/sh -c ps aux | grep x11vnc', 'nuvhand+ 32262  0.0  0.0   6076   888 ?        S    23:51   0:00 grep x11vnc', '']
+2
+Process x11vnc still running...
+['nuvhand+ 32275  0.0  0.0   2388   764 ?        Ss   23:52   0:00 /bin/sh -c ifOffRevive x11vnc >> /home/nuvhandra/Documents/dev/python/scripts/ifOffRevive.log 2>&1', 'nuvhand+ 32276  0.0  0.1  18500 10044 ?        S    23:52   0:00 /usr/bin/python3 /usr/bin/ifOffRevive x11vnc', 'nuvhand+ 32277  0.0  0.0   2388   764 ?        S    23:52   0:00 /bin/sh -c ps aux | grep x11vnc', 'nuvhand+ 32279  0.0  0.0   6076   888 ?        S    23:52   0:00 grep x11vnc', '']
+2
+Process x11vnc still running...
+/bin/sh: 1: nohupx11vnc: not found
+['nuvhand+ 32319  0.0  0.0   2388   700 ?        Ss   23:53   0:00 /bin/sh -c ifOffRevive x11vnc >> /home/nuvhandra/Documents/dev/python/scripts/ifOffRevive.log 2>&1', 'nuvhand+ 32320  0.0  0.1  18500 10048 ?        S    23:53   0:00 /usr/bin/python3 /usr/bin/ifOffRevive x11vnc', 'nuvhand+ 32321  0.0  0.0   2388   764 ?        S    23:53   0:00 /bin/sh -c ps aux | grep x11vnc', 'nuvhand+ 32323  0.0  0.0   6076   888 ?        S    23:53   0:00 grep x11vnc', '']
+0
+re-run process x11vnc
+
+/bin/sh: 1: nohupx11vnc: not found
+['nuvhand+ 32337  0.0  0.0   2388   700 ?        Ss   23:54   0:00 /bin/sh -c ifOffRevive x11vnc >> /home/nuvhandra/Documents/dev/python/scripts/ifOffRevive.log 2>&1', 'nuvhand+ 32338  0.0  0.1  18500 10084 ?        S    23:54   0:00 /usr/bin/python3 /usr/bin/ifOffRevive x11vnc', 'nuvhand+ 32339  0.0  0.0   2388   704 ?        S    23:54   0:00 /bin/sh -c ps aux | grep x11vnc', 'nuvhand+ 32341  0.0  0.0   6076   824 ?        S    23:54   0:00 grep x11vnc', '']
+0
+re-run process x11vnc
+
+/bin/sh: 1: nohupx11vnc: not found
+['nuvhand+ 32392  0.0  0.0   2388   764 ?        Ss   23:55   0:00 /bin/sh -c ifOffRevive x11vnc >> /home/nuvhandra/Documents/dev/python/scripts/ifOffRevive.log 2>&1', 'nuvhand+ 32393  0.0  0.1  18500 10040 ?        S    23:55   0:00 /usr/bin/python3 /usr/bin/ifOffRevive x11vnc', 'nuvhand+ 32394  0.0  0.0   2388   768 ?        S    23:55   0:00 /bin/sh -c ps aux | grep x11vnc', 'nuvhand+ 32396  0.0  0.0   6076   888 ?        S    23:55   0:00 grep x11vnc', '']
+0
+re-run process x11vnc
+
+###############################################################
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  **  WARNING  **  WARNING  **  WARNING  **  WARNING  **   @#
+#@                                                           @#
+#@        YOU ARE RUNNING X11VNC WITHOUT A PASSWORD!!        @#
+#@                                                           @#
+#@  This means anyone with network access to this computer   @#
+#@  may be able to view and control your desktop.            @#
+#@                                                           @#
+#@ >>> If you did not mean to do this Press CTRL-C now!! <<< @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  You can create an x11vnc password file by running:       @#
+#@                                                           @#
+#@       x11vnc -storepasswd password /path/to/passfile      @#
+#@  or   x11vnc -storepasswd /path/to/passfile               @#
+#@  or   x11vnc -storepasswd                                 @#
+#@                                                           @#
+#@  (the last one will use ~/.vnc/passwd)                    @#
+#@                                                           @#
+#@  and then starting x11vnc via:                            @#
+#@                                                           @#
+#@      x11vnc -rfbauth /path/to/passfile                    @#
+#@                                                           @#
+#@  an existing ~/.vnc/passwd file from another VNC          @#
+#@  application will work fine too.                          @#
+#@                                                           @#
+#@  You can also use the -passwdfile or -passwd options.     @#
+#@  (note -passwd is unsafe if local users are not trusted)  @#
+#@                                                           @#
+#@  Make sure any -rfbauth and -passwdfile password files    @#
+#@  cannot be read by untrusted users.                       @#
+#@                                                           @#
+#@  Use x11vnc -usepw to automatically use your              @#
+#@  ~/.vnc/passwd or ~/.vnc/passwdfile password files.       @#
+#@  (and prompt you to create ~/.vnc/passwd if neither       @#
+#@  file exists.)  Under -usepw, x11vnc will exit if it      @#
+#@  cannot find a password to use.                           @#
+#@                                                           @#
+#@                                                           @#
+#@  Even with a password, the subsequent VNC traffic is      @#
+#@  sent in the clear.  Consider tunnelling via ssh(1):      @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/#tunnelling            @#
+#@                                                           @#
+#@  Or using the x11vnc SSL options: -ssl and -stunnel       @#
+#@                                                           @#
+#@  Please Read the documention for more info about          @#
+#@  passwords, security, and encryption.                     @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/faq.html#faq-passwd    @#
+#@                                                           @#
+#@  To disable this warning use the -nopw option, or put     @#
+#@  'nopw' on a line in your ~/.x11vncrc file.               @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+###############################################################
+09/01/2021 23:56:02 x11vnc version: 0.9.13 lastmod: 2011-08-10  pid: 32436
+09/01/2021 23:56:02 XOpenDisplay("") failed.
+09/01/2021 23:56:02 Trying again with XAUTHLOCALHOSTNAME=localhost ...
+09/01/2021 23:56:02 
+09/01/2021 23:56:02 *** XOpenDisplay failed. No -display or DISPLAY.
+09/01/2021 23:56:02 *** Trying ":0" in 4 seconds.  Press Ctrl-C to abort.
+09/01/2021 23:56:02 *** 1 2 3 4 
+09/01/2021 23:56:06 *** XOpenDisplay of ":0" successful.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 Using X display :0
+09/01/2021 23:56:06 rootwin: 0x15b reswin: 0x6800001 dpy: 0x49e27270
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 ------------------ USEFUL INFORMATION ------------------
+09/01/2021 23:56:06 X DAMAGE available on display, using it for polling hints.
+09/01/2021 23:56:06   To disable this behavior use: '-noxdamage'
+09/01/2021 23:56:06 
+09/01/2021 23:56:06   Most compositing window managers like 'compiz' or 'beryl'
+09/01/2021 23:56:06   cause X DAMAGE to fail, and so you may not see any screen
+09/01/2021 23:56:06   updates via VNC.  Either disable 'compiz' (recommended) or
+09/01/2021 23:56:06   supply the x11vnc '-noxdamage' command line option.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 Wireframing: -wireframe mode is in effect for window moves.
+09/01/2021 23:56:06   If this yields undesired behavior (poor response, painting
+09/01/2021 23:56:06   errors, etc) it may be disabled:
+09/01/2021 23:56:06    - use '-nowf' to disable wireframing completely.
+09/01/2021 23:56:06    - use '-nowcr' to disable the Copy Rectangle after the
+09/01/2021 23:56:06      moved window is released in the new position.
+09/01/2021 23:56:06   Also see the -help entry for tuning parameters.
+09/01/2021 23:56:06   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+09/01/2021 23:56:06   repaint the screen, also see the -fixscreen option for
+09/01/2021 23:56:06   periodic repaints.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 XFIXES available on display, resetting cursor mode
+09/01/2021 23:56:06   to: '-cursor most'.
+09/01/2021 23:56:06   to disable this behavior use: '-cursor arrow'
+09/01/2021 23:56:06   or '-noxfixes'.
+09/01/2021 23:56:06 using XFIXES for cursor drawing.
+09/01/2021 23:56:06 GrabServer control via XTEST.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 Scroll Detection: -scrollcopyrect mode is in effect to
+09/01/2021 23:56:06   use RECORD extension to try to detect scrolling windows
+09/01/2021 23:56:06   (induced by either user keystroke or mouse input).
+09/01/2021 23:56:06   If this yields undesired behavior (poor response, painting
+09/01/2021 23:56:06   errors, etc) it may be disabled via: '-noscr'
+09/01/2021 23:56:06   Also see the -help entry for tuning parameters.
+09/01/2021 23:56:06   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+09/01/2021 23:56:06   repaint the screen, also see the -fixscreen option for
+09/01/2021 23:56:06   periodic repaints.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 XKEYBOARD: number of keysyms per keycode 7 is greater
+09/01/2021 23:56:06   than 4 and 51 keysyms are mapped above 4.
+09/01/2021 23:56:06   Automatically switching to -xkb mode.
+09/01/2021 23:56:06   If this makes the key mapping worse you can
+09/01/2021 23:56:06   disable it with the "-noxkb" option.
+09/01/2021 23:56:06   Also, remember "-remap DEAD" for accenting characters.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 X FBPM extension not supported.
+09/01/2021 23:56:06 X display is capable of DPMS.
+09/01/2021 23:56:06 --------------------------------------------------------
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 Default visual ID: 0x21
+09/01/2021 23:56:06 Read initial data from X display into framebuffer.
+09/01/2021 23:56:06 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/10904
+09/01/2021 23:56:06 WARNING: Width (2726) is not a multiple of 4. VncViewer has problems with that.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 X display :0 is 32bpp depth=24 true color
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 Autoprobing TCP port 
+09/01/2021 23:56:06 Autoprobing selected TCP port 5900
+09/01/2021 23:56:06 Autoprobing TCP6 port 
+09/01/2021 23:56:06 Autoprobing selected TCP6 port 5900
+09/01/2021 23:56:06 listen6: bind: Address already in use
+09/01/2021 23:56:06 Not listening on IPv6 interface.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 Xinerama is present and active (e.g. multi-head).
+09/01/2021 23:56:06 Xinerama: number of sub-screens: 2
+09/01/2021 23:56:06 Xinerama: enabling -xwarppointer mode to try to correct
+09/01/2021 23:56:06 Xinerama: mouse pointer motion. XTEST+XINERAMA bug.
+09/01/2021 23:56:06 Xinerama: Use -noxwarppointer to force XTEST.
+09/01/2021 23:56:06 Xinerama: sub-screen[0]  1366x768+1360+0
+09/01/2021 23:56:06 Xinerama: sub-screen[1]  1360x768+0+0
+09/01/2021 23:56:06 Xinerama: no blackouts needed (screen fills rectangle)
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 fb read rate: 1003 MB/sec
+09/01/2021 23:56:06 fast read: reset -wait  ms to: 10
+09/01/2021 23:56:06 fast read: reset -defer ms to: 10
+09/01/2021 23:56:06 The X server says there are 12 mouse buttons.
+09/01/2021 23:56:06 screen setup finished.
+09/01/2021 23:56:06 
+09/01/2021 23:56:06 WARNING: You are running x11vnc WITHOUT a password.  See
+09/01/2021 23:56:06 WARNING: the warning message printed above for more info.
+09/01/2021 23:56:06 
+
+The VNC desktop is:      timemachine:0
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+Process x11vnc still running...
+Error: Can't open display: 
+re-run process xcalc
+
+Error: Can't open display: 
+re-run process xcalc
+
+Error: Can't open display: 
+re-run process xcalc
+
+re-run process xcalc
+
+re-run process xcalc
+
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+caught signal: 15
+10/01/2021 00:23:58 deleted 86 tile_row polling images.
+re-run process x11vnc
+PORT=5900
+
+###############################################################
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  **  WARNING  **  WARNING  **  WARNING  **  WARNING  **   @#
+#@                                                           @#
+#@        YOU ARE RUNNING X11VNC WITHOUT A PASSWORD!!        @#
+#@                                                           @#
+#@  This means anyone with network access to this computer   @#
+#@  may be able to view and control your desktop.            @#
+#@                                                           @#
+#@ >>> If you did not mean to do this Press CTRL-C now!! <<< @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#@                                                           @#
+#@  You can create an x11vnc password file by running:       @#
+#@                                                           @#
+#@       x11vnc -storepasswd password /path/to/passfile      @#
+#@  or   x11vnc -storepasswd /path/to/passfile               @#
+#@  or   x11vnc -storepasswd                                 @#
+#@                                                           @#
+#@  (the last one will use ~/.vnc/passwd)                    @#
+#@                                                           @#
+#@  and then starting x11vnc via:                            @#
+#@                                                           @#
+#@      x11vnc -rfbauth /path/to/passfile                    @#
+#@                                                           @#
+#@  an existing ~/.vnc/passwd file from another VNC          @#
+#@  application will work fine too.                          @#
+#@                                                           @#
+#@  You can also use the -passwdfile or -passwd options.     @#
+#@  (note -passwd is unsafe if local users are not trusted)  @#
+#@                                                           @#
+#@  Make sure any -rfbauth and -passwdfile password files    @#
+#@  cannot be read by untrusted users.                       @#
+#@                                                           @#
+#@  Use x11vnc -usepw to automatically use your              @#
+#@  ~/.vnc/passwd or ~/.vnc/passwdfile password files.       @#
+#@  (and prompt you to create ~/.vnc/passwd if neither       @#
+#@  file exists.)  Under -usepw, x11vnc will exit if it      @#
+#@  cannot find a password to use.                           @#
+#@                                                           @#
+#@                                                           @#
+#@  Even with a password, the subsequent VNC traffic is      @#
+#@  sent in the clear.  Consider tunnelling via ssh(1):      @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/#tunnelling            @#
+#@                                                           @#
+#@  Or using the x11vnc SSL options: -ssl and -stunnel       @#
+#@                                                           @#
+#@  Please Read the documention for more info about          @#
+#@  passwords, security, and encryption.                     @#
+#@                                                           @#
+#@    http://www.karlrunge.com/x11vnc/faq.html#faq-passwd    @#
+#@                                                           @#
+#@  To disable this warning use the -nopw option, or put     @#
+#@  'nopw' on a line in your ~/.x11vncrc file.               @#
+#@                                                           @#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+###############################################################
+11/01/2021 09:28:06 x11vnc version: 0.9.13 lastmod: 2011-08-10  pid: 30377
+11/01/2021 09:28:06 Using X display :0
+11/01/2021 09:28:06 rootwin: 0x15b reswin: 0x4600001 dpy: 0xbaf09220
+11/01/2021 09:28:06 
+11/01/2021 09:28:06 ------------------ USEFUL INFORMATION ------------------
+11/01/2021 09:28:06 X DAMAGE available on display, using it for polling hints.
+11/01/2021 09:28:06   To disable this behavior use: '-noxdamage'
+11/01/2021 09:28:06 
+11/01/2021 09:28:06   Most compositing window managers like 'compiz' or 'beryl'
+11/01/2021 09:28:06   cause X DAMAGE to fail, and so you may not see any screen
+11/01/2021 09:28:06   updates via VNC.  Either disable 'compiz' (recommended) or
+11/01/2021 09:28:06   supply the x11vnc '-noxdamage' command line option.
+11/01/2021 09:28:06 
+11/01/2021 09:28:06 Wireframing: -wireframe mode is in effect for window moves.
+11/01/2021 09:28:06   If this yields undesired behavior (poor response, painting
+11/01/2021 09:28:06   errors, etc) it may be disabled:
+11/01/2021 09:28:06    - use '-nowf' to disable wireframing completely.
+11/01/2021 09:28:06    - use '-nowcr' to disable the Copy Rectangle after the
+11/01/2021 09:28:06      moved window is released in the new position.
+11/01/2021 09:28:06   Also see the -help entry for tuning parameters.
+11/01/2021 09:28:06   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+11/01/2021 09:28:06   repaint the screen, also see the -fixscreen option for
+11/01/2021 09:28:06   periodic repaints.
+11/01/2021 09:28:06 
+11/01/2021 09:28:06 XFIXES available on display, resetting cursor mode
+11/01/2021 09:28:06   to: '-cursor most'.
+11/01/2021 09:28:06   to disable this behavior use: '-cursor arrow'
+11/01/2021 09:28:06   or '-noxfixes'.
+11/01/2021 09:28:06 using XFIXES for cursor drawing.
+11/01/2021 09:28:06 GrabServer control via XTEST.
+11/01/2021 09:28:06 
+11/01/2021 09:28:06 Scroll Detection: -scrollcopyrect mode is in effect to
+11/01/2021 09:28:06   use RECORD extension to try to detect scrolling windows
+11/01/2021 09:28:06   (induced by either user keystroke or mouse input).
+11/01/2021 09:28:06   If this yields undesired behavior (poor response, painting
+11/01/2021 09:28:06   errors, etc) it may be disabled via: '-noscr'
+11/01/2021 09:28:06   Also see the -help entry for tuning parameters.
+11/01/2021 09:28:06   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+11/01/2021 09:28:06   repaint the screen, also see the -fixscreen option for
+11/01/2021 09:28:06   periodic repaints.
+11/01/2021 09:28:06 
+11/01/2021 09:28:06 XKEYBOARD: number of keysyms per keycode 7 is greater
+11/01/2021 09:28:06   than 4 and 51 keysyms are mapped above 4.
+11/01/2021 09:28:06   Automatically switching to -xkb mode.
+11/01/2021 09:28:06   If this makes the key mapping worse you can
+11/01/2021 09:28:06   disable it with the "-noxkb" option.
+11/01/2021 09:28:06   Also, remember "-remap DEAD" for accenting characters.
+11/01/2021 09:28:06 
+11/01/2021 09:28:06 X FBPM extension not supported.
+11/01/2021 09:28:06 X display is capable of DPMS.
+11/01/2021 09:28:06 --------------------------------------------------------
+11/01/2021 09:28:06 
+11/01/2021 09:28:07 Default visual ID: 0x21
+11/01/2021 09:28:07 Read initial data from X display into framebuffer.
+11/01/2021 09:28:07 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/10904
+11/01/2021 09:28:07 WARNING: Width (2726) is not a multiple of 4. VncViewer has problems with that.
+11/01/2021 09:28:07 
+11/01/2021 09:28:07 X display :0 is 32bpp depth=24 true color
+11/01/2021 09:28:07 
+11/01/2021 09:28:07 Autoprobing TCP port 
+11/01/2021 09:28:07 Autoprobing selected TCP port 5900
+11/01/2021 09:28:07 Autoprobing TCP6 port 
+11/01/2021 09:28:07 Autoprobing selected TCP6 port 5900
+11/01/2021 09:28:07 listen6: bind: Address already in use
+11/01/2021 09:28:07 Not listening on IPv6 interface.
+11/01/2021 09:28:07 
+11/01/2021 09:28:07 Xinerama is present and active (e.g. multi-head).
+11/01/2021 09:28:07 Xinerama: number of sub-screens: 2
+11/01/2021 09:28:07 Xinerama: enabling -xwarppointer mode to try to correct
+11/01/2021 09:28:07 Xinerama: mouse pointer motion. XTEST+XINERAMA bug.
+11/01/2021 09:28:07 Xinerama: Use -noxwarppointer to force XTEST.
+11/01/2021 09:28:07 Xinerama: sub-screen[0]  1366x768+1360+0
+11/01/2021 09:28:07 Xinerama: sub-screen[1]  1360x768+0+0
+11/01/2021 09:28:07 Xinerama: no blackouts needed (screen fills rectangle)
+11/01/2021 09:28:07 
+11/01/2021 09:28:07 fb read rate: 1052 MB/sec
+11/01/2021 09:28:07 fast read: reset -wait  ms to: 10
+11/01/2021 09:28:07 fast read: reset -defer ms to: 10
+11/01/2021 09:28:07 The X server says there are 12 mouse buttons.
+11/01/2021 09:28:07 screen setup finished.
+11/01/2021 09:28:07 
+11/01/2021 09:28:07 WARNING: You are running x11vnc WITHOUT a password.  See
+11/01/2021 09:28:07 WARNING: the warning message printed above for more info.
+11/01/2021 09:28:07 
+
+The VNC desktop is:      timemachine:0
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+11/01/2021 09:36:21 rfbProcessNewConnection: error in getnameinfo: Transport endpoint is not connected
+11/01/2021 09:36:21 Got connection from client 9Še¸y
+11/01/2021 09:36:21   other clients:
+11/01/2021 09:36:21 webSocketsHandshake: unknown connection error
+11/01/2021 09:36:21 Client localhost gone
+11/01/2021 09:36:21 Statistics             events    Transmit/ RawEquiv ( saved)
+11/01/2021 09:36:21  TOTALS              :      0 |         0/        0 (  0.0%)
+11/01/2021 09:36:21 Statistics             events    Received/ RawEquiv ( saved)
+11/01/2021 09:36:21  TOTALS              :      0 |         0/        0 (  0.0%)
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+11/01/2021 09:41:48 rfbProcessNewConnection: error in getnameinfo: Transport endpoint is not connected
+11/01/2021 09:41:48 Got connection from client 9Še¸y
+11/01/2021 09:41:48   other clients:
+11/01/2021 09:41:48 webSocketsHandshake: unknown connection error
+11/01/2021 09:41:48 Client localhost gone
+11/01/2021 09:41:48 Statistics             events    Transmit/ RawEquiv ( saved)
+11/01/2021 09:41:48  TOTALS              :      0 |         0/        0 (  0.0%)
+11/01/2021 09:41:48 Statistics             events    Received/ RawEquiv ( saved)
+11/01/2021 09:41:48  TOTALS              :      0 |         0/        0 (  0.0%)
+Process x11vnc still running...
+11/01/2021 09:42:11 rfbProcessNewConnection: error in getnameinfo: Transport endpoint is not connected
+11/01/2021 09:42:11 Got connection from client 9Še¸y
+11/01/2021 09:42:11   other clients:
+11/01/2021 09:42:11 webSocketsHandshake: unknown connection error
+11/01/2021 09:42:11 Client localhost gone
+11/01/2021 09:42:11 Statistics             events    Transmit/ RawEquiv ( saved)
+11/01/2021 09:42:11  TOTALS              :      0 |         0/        0 (  0.0%)
+11/01/2021 09:42:11 Statistics             events    Received/ RawEquiv ( saved)
+11/01/2021 09:42:11  TOTALS              :      0 |         0/        0 (  0.0%)
+Process x11vnc still running...
+Process x11vnc still running...
+Process x11vnc still running...
+caught signal: 15
+11/01/2021 09:45:35 deleted 86 tile_row polling images.
+re-run process x11vnc
+PORT=5900
+
