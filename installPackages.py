@@ -2,9 +2,12 @@
 
 #run as root
 
-import os, time, re
+import os, time, re, sys
 
-f = open("pkglst","r")
+if len(sys.argv) == 2:
+	f = open(sys.argv[1],"r")
+else:
+	f = open("pkglst","r")
 t = f.read()
 f.close()
 
