@@ -16,26 +16,20 @@ def sendNotification(task):
 def main():
 	for i in tasks:
 		if i['srttime']:
-			hour_now = int(nowt.strftime("%H"))
-			min_now = int(nowt.strftime("%M"))
-			strtime_hour = int(i['srttime'].split(':')[0])
-			strtime_min = int(i['srttime'].split(':')[1])
+			starttime = nowt.replace(hour=int(i['srttime'].split(':')[0]), minute=int(i['srttime'].split(':')[1]), second=0, microsecond=0)
 			if i['endtime']:
-				endtime_hour = int(i['endtime'].split(':')[0])
-				endtime_min = int(i['endtime'].split(':')[1])
-				if hour_now >= strtime_hour and hour_now <= endtime_hour:
-					if min_now >= strtime_min and min_now <= endtime_min:
-						if i['duedate'] == '':
-							sendNotification(i['comd'])
-						elif i['duedate'] == nowt.strftime("%Y-%m-%d"):
-							sendNotification(i['comd'])
+				endtime = nowt.replace(hour=int(i['endtime'].split(':')[0]), minute=int(i['endtime'].split(':')[1]), second=0, microsecond=0)
+				if nowt >= starttime and nowt <= endtime:
+					if i['duedate'] == '':
+						sendNotification(i['comd'])
+					elif i['duedate'] == nowt.strftime("%Y-%m-%d"):
+						sendNotification(i['comd'])
 			else:
-				if hour_now >= strtime_hour:
-					if min_now >= strtime_min:
-						if i['duedate'] == '':
-							sendNotification(i['comd'])
-						elif i['duedate'] == nowt.strftime("%Y-%m-%d"):
-							sendNotification(i['comd'])
+				if nowt >= starttime:
+					if i['duedate'] == '':
+						sendNotification(i['comd'])
+					elif i['duedate'] == nowt.strftime("%Y-%m-%d"):
+						sendNotification(i['comd'])
 		else:
 			if i['duedate'] == nowt.strftime("%Y-%m-%d"):
 				sendNotification(i['comd'])
