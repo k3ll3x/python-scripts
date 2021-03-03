@@ -22,8 +22,8 @@ time_regex = "\d{2}:\d{2}"
 times = re.findall(time_regex, task) if re.findall(time_regex, task) else ""
 tasks.append(
 	{
-		'comd': re.findall(".+?(?=\d{4}-\d{2}-\d{2}|\d{2}:\d{2})", task)[0],
-		'srttime': times[0],
+		'comd': re.findall(".+?(?=\d{4}-\d{2}-\d{2}|\d{2}:\d{2}|$)", task)[0],
+		'srttime': times[0] if len(times) >= 1 else "",
 		'endtime': times[1] if len(times) > 1 else "",
 		'duedate': duedate,
 		'timestamp': str(datetime.now()),
