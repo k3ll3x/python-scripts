@@ -6,4 +6,4 @@ json = r.json()
 t = json[random.randint(0, len(json) - 1)]
 limit = 40
 t['text'] = '-\n'.join(t['text'][i:i+30] for i in range(0, len(t['text']), 30))
-os.popen("notify-send '{0}' '{1}'".format(t['text'], t['author']))
+os.popen("notify-send -i user-invisible '{0}' '{1}'".format(t['text'], t['author']))
