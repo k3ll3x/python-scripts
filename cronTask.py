@@ -31,7 +31,7 @@ def main():
 					elif i['duedate'] == nowt.strftime("%Y-%m-%d"):
 						sendNotification(i['comd'])
 		else:
-			if i['duedate'] == nowt.strftime("%Y-%m-%d"):
+			if i['duedate'] != "" and i['duedate'] <= nowt.strftime("%Y-%m-%d"):
 				sendNotification(i['comd'])
 
 main()
