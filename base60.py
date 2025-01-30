@@ -2,6 +2,8 @@
 #. : | - O
 
 import time
+import readline
+import random as rnd
 
 # Dictionary to store base 60 symbols and their corresponding values
 n = {
@@ -16,7 +18,7 @@ n = {
 # Reverse dictionary for converting numbers back to symbols
 reverse_n = {v: k for k, v in n.items()}
 
-def convert_symbols_to_number(symbols):
+def sym2num(symbols):
 	"""Convert base-60 symbols to a number based on custom notation."""
 	symbols = symbols.lower().replace('0', 'o')  # Normalize input
 
@@ -28,7 +30,7 @@ def convert_symbols_to_number(symbols):
 			num = num * 60 if num != 0 else 60
 	return num
 
-def convert_number_to_symbols(number):
+def num2sym(number):
     """Convert a number to base 60 symbols based on custom notation."""
     if number < 1:
         raise ValueError("Number must be greater than or equal to 1.")
@@ -43,7 +45,7 @@ def convert_number_to_symbols(number):
     if count_O > 0:
         symbols.append('o')
         if count_O > 1:
-            symbols.insert(0, convert_number_to_symbols(count_O))
+            symbols.insert(0, num2sym(count_O))
 
     # Define a list of tuples for symbol values and their corresponding characters
     symbol_counts = [
@@ -75,35 +77,71 @@ def main():
 		if user_input.lower() in ['exit', 'quit', 'e', 'q']:
 			break
 
+		c = {
+			'.': 0,
+			':': 0,
+			'|': 0,
+			'-': 0,
+			'=': 0,
+			'o': 0,
+		}
+
+		if user_input.lower() in ['rand', 'random']:
+			r = int(input("rand> "))
+			for i in range(1,r+1):
+				num = rnd.randint(1,r+1)
+				sym = num2sym(num)
+				print(f"{i}\t{num}\t{sym}")
+				for k in c:
+					c[k] += sym.count(k)
+				#time.sleep(6/r)
+			print(dict(sorted(c.items(), key=lambda item: item[1])))
+			continue
+
 		if user_input.lower() in ['r', 'range']:
 			r = int(input("r> "))
 			for i in range(1,r+1):
-				print(f"{i}\t{convert_number_to_symbols(i)}")
+				print(f"{i}\t{num2sym(i)}")
 				time.sleep(6/r)
+			continue
 		
 		if user_input.lower() in ['t', 'test']:
 			r = int(input("t> "))
 			for i in range(1,r+1):
-				sym = convert_number_to_symbols(i)
-				num = convert_symbols_to_number(sym)
+				sym = num2sym(i)
+				num = sym2num(sym)
 				if num != i:
 					print(f"\tFailed: {i}\t{sym}")
 					break
 			print(f"\tAll {r} numbers passed!")
 			continue
   
+		if user_input.lower() in ['en', 'encode']:
+			text = input("en> ")
+			for i in [ord(char) - 96 for char in text.lower()]:
+				print(num2sym(i), end=' ')
+			print()
+			continue
+
+		if user_input.lower() in ['de', 'decode']:
+			text = input("de> ").split(' ')
+			for i in text:
+				print(chr(sym2num(i) + 96), end='')
+			print()
+			continue
+  
 		try:
 			# Check if input is a digit (number)
 			if user_input.isdigit():
 				num = int(user_input)
-				conv = convert_number_to_symbols(num)
+				conv = num2sym(num)
 			else:
 				try:
 					res = eval(user_input)
-					conv = convert_number_to_symbols(res)
+					conv = num2sym(res)
 				except:
 					# Otherwise, treat it as symbols
-					conv = convert_symbols_to_number(user_input.replace(' ',''))
+					conv = sym2num(user_input.replace(' ',''))
 			print(f"\t\t{conv}")
 		
 		except ValueError as e:
